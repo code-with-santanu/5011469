@@ -13,14 +13,8 @@ public class Main {
 
         BookService obj1 = context.getBean(BookService.class);
         obj1.run();
-        //BookRepository obj2 = context.getBean(BookRepository.class);
-//        obj1.findBook();
+
 
         //context.close();
-
-//        Mycls m = context.getBean("cls",Mycls.class);
-//        m.run();
-
-
     }
 }
